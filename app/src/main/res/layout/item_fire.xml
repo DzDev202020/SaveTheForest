@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/view_margin"
+    android:padding="@dimen/small_view_margin"
+    app:cardCornerRadius="@dimen/cardCornerRadius">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/selectBorder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_content" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/fire_address"
+            style="@style/TextImportantStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/small_view_margin"
+            android:layout_marginTop="@dimen/view_margin"
+            android:layout_marginEnd="@dimen/small_view_margin"
+            android:text="Fire address"
+            app:layout_constraintEnd_toStartOf="@id/fire_confirmation_count"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/fire_created_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_view_margin"
+            android:maxLines="2"
+            android:text="08:00 23//11/2021"
+            app:layout_constraintEnd_toStartOf="@id/fire_confirmation_count"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fire_address" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/fire_controlled_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_view_margin"
+            android:text="10:10 23/11/2021"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/fire_confirmation_count"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fire_created_date" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/fire_confirmation_count"
+            style="@style/TextHeadLineStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/view_margin"
+            android:text="X3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/fire">
+
+    <fragment
+        android:id="@+id/fire"
+        android:name="com.constantine2.student.fragment.FireFragment"
+        android:label="@string/fire"
+        tools:layout="@layout/fragment_fire" />
+
+    <fragment
+        android:id="@+id/friends"
+        android:name="com.constantine2.student.fragment.ContactFragment"
+        android:label="@string/Contacts"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.constantine2.student.fragment.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>

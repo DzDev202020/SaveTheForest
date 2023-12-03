@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_text_button_color">#080932</color>
+
+
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="colorOnPrimary">@color/black</color>
+    <!--    123-->
+    <color name="pin_view_hint_color">@color/mtrl_indicator_text_color</color>
+
+    <color name="maskColor">#99000000</color>
+    <color name="maskColor2">#333333</color>
+    <color name="spinner_divider">#535353</color>
+    <color name="grey_overlay">#66202020</color>
+
+    <!--    The No Change-->
+    <color name="transparent">#00000000</color>
+    <color name="red">#ff0000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--   Sync Change-->
+    <color name="fire_color">#F42B2B</color>
+    <color name="fireman_color">#3761F4</color>
+
+
+    <color name="primaryLightColor">#04EFD8</color>
+    <color name="primaryColor">#03DAC5</color>
+    <color name="primaryDarkColor">#018786</color>
+
+    <color name="secondaryLightColor">#FAD92D</color>
+    <color name="secondaryColor">#FFD600</color>
+    <color name="secondaryDarkColor">#D5B200</color>
+
+
+    <color name="icon_tint_activated">@color/secondaryColor</color>
+    <color name="icon_tint_disabled">#FFCEB7</color>
+
+    <color name="divider_color">@color/primaryColor</color>
+    <color name="divider_color_variant">@color/secondaryColor</color>
+
+
+    <color name="terms_tint_color">@color/primaryColor</color>
+    <color name="privacy_tint_color">@color/secondaryColor</color>
+
+
+    <color name="dots_color">@color/primaryColor</color>
+    <color name="dots_stroke_color">@color/primaryLightColor</color>
+
+
+    <color name="create_product_background_color">@color/secondaryColor</color>
+    <color name="create_product_background_dash_color">@color/secondaryLightColor</color>
+    <color name="create_product_background_ripple_color">@color/secondaryDarkColor</color>
+
+
+    <color name="add_worker_background_color">@color/primaryColor</color>
+    <color name="add_worker_background_dash_color">@color/primaryLightColor</color>
+    <color name="add_worker_background_ripple_color">@color/primaryDarkColor</color>
+
+
+    <color name="product_item_delete_button_color">@color/secondaryColor</color>
+
+
+    <color name="sell_side_list_background_line_color">@color/icon_tint_color</color>
+    <color name="sell_side_list_background_color">@color/white</color>
+    <color name="sell_bottom_quantity_buttons_background_color">@color/white</color>
+
+
+    <color name="progress_dark_color_variant">@color/secondaryColor</color>
+    <color name="progress_dark_color_transparent_variant">#33FF9533</color>
+
+    <color name="progress_dark_color">@color/secondaryDarkColor</color>
+    <color name="progress_dark_color_transparent">#33FFB031</color>
+    <color name="progress_light_color">@color/secondaryLightColor</color>
+    <color name="progress_color">@color/secondaryColor</color>
+
+
+    <color name="sell_day_button_not_selected">@color/secondaryDarkColor</color>
+    <color name="sell_day_button_selected">@color/secondaryColor</color>
+    <color name="sell_day_button_selected_fade">#CCFDA656</color>
+
+
+    <color name="spinner_background_color_disabled">@color/secondaryDarkColor</color>
+    <color name="spinner_background_color_enabled">@color/secondaryColor</color>
+    <color name="spinner_background_color_disabled_variation">@color/primaryDarkColor</color>
+    <color name="spinner_background_color_enabled_variation">@color/primaryColor</color>
+
+
+    <color name="textInputLayoutColor">@color/text_input_layout_color</color>
+    <color name="textInputLayoutColorVariant">@color/text_input_layout_color_variant</color>
+
+
+    <color name="analytics_bar_char_color">@color/secondaryColor</color>
+    <color name="analyticsChartColor">@color/secondaryDarkColor</color>
+    <color name="analyticsChartDarkColor">@color/secondaryDarkColor</color>
+
+    <color name="analytics_category_pie_first_color">@color/primaryDarkColor</color>
+    <color name="analytics_category_pie_second_color">@color/primaryLightColor</color>
+
+    <color name="analytics_worker_pie_first_color">@color/secondaryLightColor</color>
+    <color name="analytics_worker_pie_second_color">@color/secondaryDarkColor</color>
+
+    <color name="color_analytics_text_button_custom_ripple">@color/secondaryDarkColor</color>
+
+
+    <color name="price_text_color">@color/primaryColor</color>
+    <color name="empty_list_tint">@color/secondaryColor</color>
+    <color name="secondaryButtonColor">@color/secondaryColor</color>
+
+
+    <color name="light_red">#EF2121</color>
+    <color name="SpamErrorColor">#FF3C3C</color>
+    <color name="EmulatorDetectedColor">#00b2cc</color>
+    <color name="selected_icon_color">#4CF635</color>
+
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyTextButtonStyle" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">@color/my_text_button_color</item>
+    </style>
+</resources>

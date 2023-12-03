@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/spinner_background_color_disabled" />
+            <corners  android:topRightRadius="@dimen/cardCornerRadius" android:topLeftRadius="@dimen/cardCornerRadius" android:bottomRightRadius="@dimen/cardCornerRadius" android:bottomLeftRadius="@dimen/cardCornerRadius" />
+        </shape>
+    </item>
+</layer-list>

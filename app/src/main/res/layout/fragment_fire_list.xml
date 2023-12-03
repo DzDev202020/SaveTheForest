@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FireListFragment">
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/motionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/fire_master_detail_motion_layout">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/master"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--            <androidx.recyclerview.widget.RecyclerView-->
+            <!--                android:id="@+id/fires_list_recycler_view"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent" />-->
+
+            <com.constantine2.student.CustomRecyclerView
+                android:id="@+id/fires_list_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/detail"
+            android:layout_width="0dp"
+            android:layout_height="0dp">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/backButton"
+                android:layout_width="@dimen/medium_icon"
+                android:layout_height="@dimen/medium_icon"
+                android:layout_margin="@dimen/view_margin"
+                android:src="@drawable/back_arrow"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/primaryColor" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/fire_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextImportantStyle"
+                android:maxLines="1"
+                android:layout_marginStart="@dimen/view_margin"
+                android:layout_marginEnd="@dimen/view_margin"
+                android:textAlignment="viewStart"
+                app:layout_constraintTop_toBottomOf="@id/backButton" />
+
+            <LinearLayout
+                android:id="@+id/post_header"
+                android:layout_width="0dp"
+                android:layout_marginStart="@dimen/view_margin"
+                android:layout_marginEnd="@dimen/view_margin"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fire_address">
+
+
+                <com.google.android.material.button.MaterialButton
+
+                    android:id="@+id/create_scale"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/small_view_margin"
+                    android:text="@string/create_scale" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/create_post"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/small_view_margin"
+                    android:text="@string/create_post" />
+            </LinearLayout>
+
+
+            <com.constantine2.student.CustomRecyclerView
+                android:id="@+id/posts_list_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/post_header" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_margin_start">16dp</dimen>
+    <dimen name="button_height">68dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">124dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="small_view_margin">8dp</dimen>
+    <dimen name="image_view">200dp</dimen>
+    <dimen name="corner_radius">24dp</dimen>
+    <dimen name="medium_icon">36dp</dimen>
+    <dimen name="medium_picture">124dp</dimen>
+    <dimen name="small_picture">64dp</dimen>
+    <dimen name="large_picture">240dp</dimen>
+
+    <dimen name="second_fragment_translationZ">12dp</dimen>
+
+    <dimen name="navigation_rail_width">72dp</dimen>
+    <dimen name="bottom_nav_height">100dp</dimen>
+
+
+    <dimen name="guide_line_margin">16dp</dimen>
+    <dimen name="guide_line_gutter">4dp</dimen>
+
+
+    <dimen name="large_icon_dimen">96dp</dimen>
+    <dimen name="medium_icon_dimen">76dp</dimen>
+    <dimen name="small_icon_size">48dp</dimen>
+    <dimen name="x_small_icon_size">24dp</dimen>
+
+
+    <dimen name="view_large_margin">24dp</dimen>
+    <dimen name="view_margin">16dp</dimen>
+    <dimen name="view_small_margin">8dp</dimen>
+    <dimen name="view_smallx_margin">4dp</dimen>
+
+
+    <dimen name="count_down_text_size">64sp</dimen>
+    <dimen name="text_head_line_size">34sp</dimen>
+    <dimen name="text_important_size">24sp</dimen>
+    <dimen name="text_small_important_size">20sp</dimen>
+    <dimen name="text_sell_bottom_buttons_size">18sp</dimen>
+    <dimen name="text_button_size">20sp</dimen>
+    <dimen name="text_button_text_size">18sp</dimen>
+    <dimen name="text_body_size">16sp</dimen>
+    <dimen name="text_subtitle1_size">18sp</dimen>
+    <dimen name="text_caption_size">12sp</dimen>
+
+
+    <dimen name="inputMaxWidth">320dp</dimen>
+    <dimen name="inputMaxHeight">52dp</dimen>
+
+    <dimen name="back_button_margin">8dp</dimen>
+    <dimen name="bigButtonWidth">320dp</dimen>
+    <dimen name="bigButtonHeight">76dp</dimen>
+
+
+    <dimen name="cardCornerRadius">16dp</dimen>
+
+
+    <dimen name="drawablePadding">8dp</dimen>
+
+
+    <dimen name="picture_dimens">300dp</dimen>
+
+
+    <dimen name="divider_width">2dp</dimen>
+    <dimen name="divider_height">16dp</dimen>
+    <dimen name="line_divider_height">2dp</dimen>
+
+
+    <dimen name="spinnerDividerHeight">4dp</dimen>
+    <dimen name="item_string_height">48dp</dimen>
+    <dimen name="dropDownHeight">200dp</dimen>
+
+
+    <dimen name="lineWidthDimens">4dp</dimen>
+    <dimen name="dashWidth">36dp</dimen>
+    <dimen name="dashGap">16dp</dimen>
+    <dimen name="dashPadding">8dp</dimen>
+    <dimen name="add_background_padding">4dp</dimen>
+
+
+    <dimen name="progressCornerRadius">8dp</dimen>
+    <dimen name="progressIndicatorSize">32dp</dimen>
+    <dimen name="progressIndicatorInset">8dp</dimen>
+    <dimen name="progressThickness">6dp</dimen>
+
+
+    <!--SignIn-->
+    <dimen name="sign_in_picture_dimens">200dp</dimen>
+
+    <dimen name="dotSize">24dp</dimen>
+    <dimen name="dotsSpacing">14dp</dimen>
+    <dimen name="dotsCornerRadius">14dp</dimen>
+    <dimen name="dotsStrokeWidth">4dp</dimen>
+
+    <dimen name="phoneMotionLayoutHeight">200dp</dimen>
+    <dimen name="PinViewItemHeight">52dp</dimen>
+    <dimen name="PinViewItemRadius">8dp</dimen>
+    <dimen name="PinViewItemSpacing">12dp</dimen>
+    <dimen name="PinViewItemWidth">36dp</dimen>
+    <dimen name="PinViewLineWidth">4dp</dimen>
+
+    <dimen name="subscription_progress_background_padding">12dp</dimen>
+    <dimen name="subscription_progress_background_padding_variant">8dp</dimen>
+    <dimen name="subscription_progress_background_size">120dp</dimen>
+    <dimen name="subscription_dimen">224dp</dimen>
+
+
+    <!--    Sales-->
+    <dimen name="sell_selected_day_text_height">52dp</dimen>
+    <dimen name="sell_day_button_padding">4dp</dimen>
+
+    <dimen name="sell_day_button_corner_radius">24dp</dimen>
+
+    <dimen name="sale_card_height">100dp</dimen>
+    <dimen name="sale_card_min_width">400dp</dimen>
+
+    <dimen name="item_sale_width">200dp</dimen>
+    <dimen name="item_sale_height">140dp</dimen>
+    <!-- sale_full_height = item_sale_height * 2  + small_margin * 4-->
+    <!--    <dimen name="sale_full_height">400dp</dimen>-->
+
+
+    <!--Analytics-->
+    <dimen name="AnalyticsButtonStyleMinHeight">36dp</dimen>
+
+    <dimen name="AnalyticsButtonStyleTop">16dp</dimen>
+    <dimen name="AnalyticsButtonStyleStart">8dp</dimen>
+    <dimen name="AnalyticsButtonStyleEnd">8dp</dimen>
+
+    <dimen name="AnalyticsButtonStyleMargin">8dp</dimen>
+
+    <dimen name="analytics_line_char_buttons_text_size">14sp</dimen>
+
+    <dimen name="myChartHeight">300dp</dimen>
+
+    <dimen name="analytics_bar_text_value_size">16sp</dimen>
+    <dimen name="analytics_line_width">1dp</dimen>
+    <dimen name="scroll_bottom_space_height">36dp</dimen>
+
+
+    <!--    Products-->
+    <dimen name="text_button_view_size">58dp</dimen>
+    <dimen name="button_text_padding">16dp</dimen>
+    <dimen name="sortBySpinnerHeight">36dp</dimen>
+
+    <dimen name="inspect_product_buttons_height">52dp</dimen>
+
+    <dimen name="searchAutoCompleteTextLayoutHeight">70dp</dimen>
+
+    <dimen name="closeScanFragmentButtonSize">36dp</dimen>
+
+
+    <dimen name="seek_bar_text_scale_up">20sp</dimen>
+    <dimen name="seek_bar_text_scale_down">16sp</dimen>
+    <dimen name="my0dp">0dp</dimen>
+
+
+    <dimen name="item_product_width">200dp</dimen>
+    <dimen name="item_product_height">252dp</dimen>
+
+    <dimen name="item_product_item_sell_width">180dp</dimen>
+    <dimen name="item_product_item_sell_height">120dp</dimen>
+
+    <dimen name="remove_item_button_width">36dp</dimen>
+
+    <dimen name="item_product_sell_width">200dp</dimen>
+    <dimen name="item_product_sell_height">252dp</dimen>
+
+
+    <!--    Profile-->
+    <dimen name="item_worker_height">100dp</dimen>
+    <dimen name="item_worker_width">400dp</dimen>
+
+
+    <!--Sell-->
+    <dimen name="sell_bottom_buttons_height">200dp</dimen>
+    <dimen name="sell_bottom_buttons_width">300dp</dimen>
+
+    <dimen name="sell_side_menu_toggle_height">200dp</dimen>
+    <dimen name="sell_side_menu_toggle_width">16dp</dimen>
+
+    <dimen name="sell_side_menu_margin_top">100dp</dimen>
+
+    <dimen name="sell_side_list_background_line_padding">2dp</dimen>
+
+    <dimen name="sell_side_items_list_size">200dp</dimen>
+
+
+    <!--Scan-->
+    <dimen name="frameCornersRadius">16dp</dimen>
+    <dimen name="frameCornersSize">16dp</dimen>
+    <dimen name="frameThickness">4dp</dimen>
+    <dimen name="payButtonSize">52dp</dimen>
+    <dimen name="backButtonSize">36dp</dimen>
+    <item name="frameSize" format="float" type="dimen">0.6</item>
+
+
+    <!--    Settings-->
+    <dimen name="setting_pic_size">96dp</dimen>
+    <dimen name="settingsDividerHeight">4dp</dimen>
+
+
+    <dimen name="notify_dialog_width">200dp</dimen>
+    <dimen name="notify_dialog_height">300dp</dimen>
+    <dimen name="terms_privacy_icon_size">36dp</dimen>
+
+
+    <dimen name="print_translationY">100dp</dimen>
+    <dimen name="view_analytics_margin_top">24dp</dimen>
+
+
+    <dimen name="switcherHeight">26dp</dimen>
+</resources>

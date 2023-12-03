@@ -1,0 +1,100 @@
+<resources>
+
+    <string name="common_text_font">\@font/roboto_condensed_regular</string>
+    <string name="headline_button_font">\@font/bebas_neue_regular</string>
+
+    <string name="myMapboxAccessToken">pk.eyJ1IjoiYXlvdWJraGFsIiwiYSI6ImNraWowNmRtNjEzeXkycW1xNmFjc3ZjdjkifQ.UiXy3n_PGQu1j8J_jHsMdw</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiYXlvdWJraGFsIiwiYSI6ImNraWowNmRtNjEzeXkycW1xNmFjc3ZjdjkifQ.UiXy3n_PGQu1j8J_jHsMdw</string>
+<!--    <string name="mapbox_access_token">pk.eyJ1IjoibWlzYXBhdXIiLCJhIjoiY2s5bHNkbHpwMDN2YTNmbndzbXdpejlsaiJ9.rH2wg5Dv2th2BNlyP0RSaw</string>-->
+
+    <string name="app_name">Save Forest</string>
+    <string name="identify_your_self">Identify your self</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign-In</string>
+    <string name="new_user">New user?</string>
+    <string name="create_account">Create Account</string>
+    <string name="or">Or</string>
+    <string name="facebook_sign_in">Facebook Sign-In</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="fire">Fire</string>
+    <string name="Contacts">Contacts</string>
+    <string name="settings">Settings</string>
+    <string name="disconnect">Disconnect</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fire_map">Map</string>
+    <string name="fire_list">List</string>
+    <string name="get_permission">Get Permission</string>
+    <string name="need_permission">Need permission to continue</string>
+    <string name="km">Km</string>
+    <string name="m">m</string>
+    <string name="hour">H</string>
+    <string name="min">min</string>
+    <string name="need_location_access_permission_message">Need Location Access Permission,<br /> Press The button.</string>
+    <string name="need_read_write_access_permission_message">Need Read &amp; Write Access Permission,<br /> Press The button.</string>
+    <string name="got_permission_check_it">Press the button to check permission</string>
+    <string name="can_read">"Can read: "</string>
+
+
+    <string name="create_fire_location_title">Create Fire Spot</string>
+    <string name="create_fire_location_content">are you sure about creating Fire Spot?</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="created_fire_spot_in">Fire Sport:</string>
+    <string name="not_controlled_yet">Not Controlled</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="create_direction">Create direction</string>
+    <string name="create_direction_content">do you wanna to create direction to fire</string>
+    <string name="cant_get_location">Failed , please turn on your GPS!</string>
+    <string name="cant_find_direction">Faied, can\'t find direction to distination</string>
+    <string name="phone_number">Phone number</string>
+    <string name="enable_user_location">Click the button to track your location</string>
+    <string name="enable">Enable</string>
+    <string name="sign_up_fialed">Signup failed</string>
+    <string name="error_when_sign_in">Some errors happened, try again!</string>
+    <string name="wrong_sign_in">Email/Password are wrong</string>
+    <string name="pick_birthday">Pick BIRTHDAY</string>
+    <string name="unknow_creator">Unknow Creator</string>
+    <string name="empty_list">Empty list</string>
+    <string name="create_post">Create post</string>
+    <string name="create_scale">Create scale</string>
+    <string name="error_list">Error!</string>
+    <string name="fail_fire_creation">"Some Error happen, try again! "</string>
+    <string name="read_posts">Read posts</string>
+    <string name="select_scale">Select a scale</string>
+    <string name="fire_location">Fire location</string>
+    <string name="fire_location_content">Do you need to focus this  location in map?</string>
+    <string name="low">Low</string>
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
+    <string name="retry">Retry again</string>
+    <string name="content">Content:</string>
+    <string name="capture_picture">Capture picture</string>
+    <string name="cant_find_camera">Can\'t find camera in your device</string>
+    <string name="picture_error">Picture error, Capture another one</string>
+    <string name="on_save">Saving the post …</string>
+    <string name="should_write_some_content">You should write some content</string>
+    <string name="should_capture_picture">You should capture picture</string>
+    <string name="done_report_scale">Scale report submitted, Well done</string>
+    <string name="fail_report_scale">Scale report fail, Try again</string>
+    <string name="wrong_email">wrong email form</string>
+    <string name="empty_password">Empty password, Or wrong!</string>
+    <string name="empty_content">Empty content</string>
+    <string name="content_hint">What you say?</string>
+    <string name="name_error">empty or wrong name</string>
+    <string name="wrong_phone">wrong or empty phone number</string>
+    <string name="unknow_address">Unknown address</string>
+    <string name="cant_find_fire_in_list">Some errors, Try again!</string>
+</resources>

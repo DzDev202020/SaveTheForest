@@ -1,0 +1,226 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Student" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
+        <item name="colorOnSecondary">@color/colorOnPrimary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/backgroundColor</item>
+
+
+        <item name="android:textAppearance">@style/TextBodyStyle</item>
+        <item name="android:textViewStyle">@style/TextBodyStyle</item>
+
+        <item name="android:fontFamily">@string/common_text_font</item>
+        <item name="fontFamily">@string/common_text_font</item>
+
+
+        <item name="textInputStyle">@style/MyTextInputLayout</item>
+        <item name="editTextStyle">@style/MyEditText</item>
+
+
+        <item name="borderlessButtonStyle">@style/MyButtonTextTheme</item>
+        <item name="materialButtonOutlinedStyle">@style/MyButtonOutlineTheme</item>
+        <item name="materialButtonStyle">@style/MyButtonTheme</item>
+
+        <item name="buttonStyle">@style/MyButtonTheme</item>
+        <item name="android:buttonStyle">@style/MyButtonTheme</item>
+
+
+        <item name="spinnerStyle">@style/MySpinner</item>
+
+        <item name="circularProgressIndicatorStyle">@style/MyCircleIndicatorStyle</item>
+
+
+    </style>
+
+    <style name="Theme.Student.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Student.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Student.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+    <style name="MyButtonTheme" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="drawableTint">@color/colorOnPrimary</item>
+        <item name="android:textAppearance">@style/MyButtonTheme.TextAppearance</item>
+    </style>
+
+    <style name="MyButtonTextTheme" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="drawableTint">@color/colorOnPrimary</item>
+        <item name="android:textAppearance">@style/MyButtonTheme.TextAppearance</item>
+    </style>
+
+    <style name="MyButtonOutlineTheme" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="drawableTint">@color/colorOnPrimary</item>
+        <item name="android:textAppearance">@style/MyButtonTheme.TextAppearance</item>
+    </style>
+
+    <style name="MyButtonTheme.TextAppearance" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">@dimen/text_button_size</item>
+        <item name="fontFamily">@string/headline_button_font</item>
+        <item name="drawableTint">@color/colorOnPrimary</item>
+        <item name="android:fontFamily">@string/headline_button_font</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="MyTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <item name="materialThemeOverlay">@style/MyThemeOverlayTextInputLayout</item>
+
+        <item name="boxStrokeColor">@color/textInputLayoutColor</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+
+
+    </style>
+
+    <style name="MyThemeOverlayTextInputLayout">
+        <item name="editTextStyle">@style/MyEditText</item>
+
+        <item name="colorPrimary">@color/primaryLightColor</item>
+        <item name="colorError">@color/light_red</item>
+    </style>
+
+    <style name="MyEditText" parent="Base.Widget.MaterialComponents.TextInputEditText">
+        <item name="android:drawablePadding">@dimen/small_view_margin</item>
+        <item name="android:paddingStart">@dimen/cardCornerRadius</item>
+        <item name="android:paddingEnd">@dimen/cardCornerRadius</item>
+        <item name="android:paddingLeft">@dimen/cardCornerRadius</item>
+        <item name="android:paddingRight">@dimen/cardCornerRadius</item>
+
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textAppearance">@style/TextBodyStyle</item>
+        <item name="textInputLayoutFocusedRectEnabled">true</item>
+
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/cardCornerRadius</item>
+    </style>
+
+
+    <style name="MyBigButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">@dimen/bigButtonHeight</item>
+        <item name="android:layout_width">@dimen/bigButtonWidth</item>
+        <item name="android:layout_margin">@dimen/view_margin</item>
+        <item name="android:textAppearance">@style/TextButtonStyle</item>
+    </style>
+
+    <style name="TextHeadLineStyle" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="maxLines">1</item>
+        <item name="fontFamily">@string/headline_button_font</item>
+        <item name="android:fontFamily">@string/headline_button_font</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_head_line_size</item>
+        <item name="android:letterSpacing">0.00735294118</item>
+    </style>
+
+    <style name="TextImportantStyle" parent="TextHeadLineStyle">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_important_size</item>
+    </style>
+
+    <style name="TextSmallImportantStyle" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_small_important_size</item>
+        <item name="android:letterSpacing">0.0125</item>
+    </style>
+
+    <style name="TextBodyStyle" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_body_size</item>
+        <item name="android:letterSpacing">0.03125</item>
+        <item name="fontFamily">@string/common_text_font</item>
+        <item name="android:fontFamily">@string/common_text_font</item>
+    </style>
+
+    <style name="TextButtonStyle" parent="TextAppearance.MaterialComponents.Headline2">
+
+        <item name="fontFamily">@string/headline_button_font</item>
+        <item name="android:fontFamily">@string/headline_button_font</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_button_size</item>
+        <item name="android:letterSpacing">0.0125</item>
+    </style>
+
+    <style name="TextButtonTextStyle" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@string/headline_button_font</item>
+        <item name="android:fontFamily">@string/headline_button_font</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_button_text_size</item>
+        <item name="android:letterSpacing">0.0125</item>
+    </style>
+
+
+    <style name="MySpinner" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:dropDownWidth">match_parent</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+        <!--        <item name="android:padding">0dp</item>-->
+        <item name="android:dropDownHeight">@dimen/dropDownHeight</item>
+
+        <item name="android:background">@drawable/background_spinner</item>
+        <item name="android:popupBackground">@drawable/background_spinner</item>
+        <item name="android:divider">@color/spinner_divider</item>
+        <item name="android:dividerHeight">@dimen/spinnerDividerHeight</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="MyTextBackButtonStyle" parent="TextButtonTextStyle">
+        <item name="android:layout_margin">@dimen/back_button_margin</item>
+        <item name="drawableTint">@color/icon_tint_color</item>
+        <item name="android:gravity">center</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">@color/icon_tint_color</item>
+        <item name="android:drawableStart">@drawable/back_arrow</item>
+    </style>
+
+    <style name="MyCircleIndicatorStyle" parent="Widget.MaterialComponents.CircularProgressIndicator">
+        <item name="android:indeterminate">true</item>
+        <item name="trackCornerRadius">@dimen/progressCornerRadius</item>
+        <!--        <item name="showAnimationBehavior">inward</item>-->
+        <!--        <item name="hideAnimationBehavior">outward</item>-->
+        <item name="indicatorSize">@dimen/progressIndicatorSize</item>
+        <item name="indicatorInset">@dimen/progressIndicatorInset</item>
+        <!--        <item name="indicatorDirectionCircular">clockwise</item>-->
+        <!--        <item name="showDelay">50</item>-->
+        <!--        <item name="minHideDelay">50</item>-->
+        <item name="trackThickness">@dimen/progressThickness</item>
+        <item name="indicatorColor">?attr/colorSecondary</item>
+        <!--        <item name="trackColor">@color/secondaryDarkColor</item>-->
+
+    </style>
+</resources>

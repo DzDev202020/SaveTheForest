@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FireMapFragment">
+
+    <com.mapbox.maps.MapView
+        xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraTargetLat="40.7128"
+        mapbox:mapbox_cameraTargetLng="-74.0060"
+        mapbox:mapbox_cameraZoom="9.0"
+        />
+<!--    <com.mapbox.maps.MapView-->
+<!--        android:id="@+id/mapView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+
+<!--        app:mapbox_cameraBearing="0"-->
+<!--        app:mapbox_cameraTargetLat="36.245138"-->
+<!--        app:mapbox_cameraTargetLng="6.570929"-->
+
+<!--        app:mapbox_cameraTilt="0"-->
+<!--        app:mapbox_cameraZoom="15"-->
+<!--        app:mapbox_cameraZoomMax="18"-->
+<!--        app:mapbox_cameraZoomMin="3.8" />-->
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/state_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/view_margin"
+        android:text="@string/get_permission"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/navigationInformation"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/view_margin"
+        android:background="@drawable/rounded_corner_background"
+        android:backgroundTint="@color/primaryColor"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/distanceText"
+            style="@style/TextImportantStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/view_margin"
+            android:layout_marginEnd="@dimen/view_margin"
+            android:layout_weight="4"
+            android:drawableLeft="@drawable/location"
+            android:drawableTint="?attr/colorOnPrimary"
+            android:gravity="center"
+            android:text="22 KM"
+            android:textAlignment="center"
+            android:textColor="?attr/colorOnPrimary" />
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="24dp"
+            android:layout_weight="0"
+            android:background="?attr/colorOnPrimary" />
+
+        <TextView
+            android:id="@+id/timeText"
+            style="@style/TextImportantStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/view_margin"
+            android:layout_weight="4"
+            android:drawableRight="@drawable/time_wait"
+            android:drawableTint="?attr/colorOnPrimary"
+            android:gravity="center"
+            android:text="20 min"
+            android:textAlignment="center"
+            android:textColor="?attr/colorOnPrimary" />
+
+    </LinearLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/postFire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/view_margin"
+        android:visibility="visible"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fire" />
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/createFireMarker"
+        android:layout_width="@dimen/medium_icon"
+        android:layout_height="@dimen/medium_icon"
+        android:src="@drawable/location_mark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/light_red" />
+
+    <LinearLayout
+        android:id="@+id/createFireButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cancelCreateFireButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_view_margin"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/icon_close"
+            android:text="@string/cancel" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/confirmCreateFireButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_view_margin"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/confirm"
+            android:text="@string/confirm" />
+
+    </LinearLayout>
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/progressBarBackground"
+        android:layout_width="@dimen/small_picture"
+        android:layout_height="@dimen/small_picture"
+        android:layout_margin="@dimen/view_margin"
+        android:visibility="visible"
+        android:src="@drawable/circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:indicatorColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/progressBarBackground"
+        app:layout_constraintEnd_toEndOf="@id/progressBarBackground"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/progressBarBackground"
+        app:layout_constraintTop_toTopOf="@id/progressBarBackground" />
+</androidx.constraintlayout.widget.ConstraintLayout>
